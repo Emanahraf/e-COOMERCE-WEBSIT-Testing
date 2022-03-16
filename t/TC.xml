@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="reg" >
+        <classes>
+            <class name="TestCases">
+
+                <methods>
+                    <include name="ValidDataRegister"></include>
+                    <include name="ValidDataLogin"></include>
+                    <include name="ForgetPassword"></include>
+                    <include name="ValidDataLogin"></include>
+                    <include name="SearchProduct"></include>
+                    <include name="ChangeCurrency"></include>
+                    <include name="SelectCategory"></include>
+                    <include name="FilterWithColor"></include>
+                    <include name="SelectTags"></include>
+                    <include name="AddToCart"></include>
+                    <include name="AddToWishList"></include>
+                    <include name="AddToCopmareList"></include>
+                    <include name="MakeOrder"></include>
+
+                </methods>
+
+
+
+
+            </class>
+        </classes>
+    </test>
+</suite>
+
