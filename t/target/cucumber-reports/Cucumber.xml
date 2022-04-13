@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="228.36">
+<testcase classname="user could Create account" name="Register with Vaild email and Password" time="17.601">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click register button............................................passed
+When user enter His Data: firstname-lastName-emailandpassword...............passed
+And click on register button................................................passed
+Then registration completed succesufully....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login to his account" name="User login with vaild Data" time="13.808">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+When user enter His Data: email and password................................passed
+And click on Login button...................................................passed
+Then Login completed succesufully...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user could reset password" name="reset password Happy scenario" time="11.5">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+And user click Reset password...............................................passed
+When user enter His email...................................................passed
+And click on reset button...................................................passed
+Then reset completed succesufully...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="search product" name="Logged User could search for any product" time="17.044">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+And user login to his account...............................................passed
+When user enter search key..................................................passed
+Then user Get success search Result.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Change Currency" name="Logged User could switch between currencies US-Euro" time="18.626">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+And user login to his account...............................................passed
+When user Click in currency list............................................passed
+And user choose from currency list..........................................passed
+Then currency change succesufully...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Select Category" name="Logged user could select different Categories" time="15.201">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+And user login to his account...............................................passed
+When user Hover in Category.................................................passed
+And user choose subCategroy.................................................passed
+Then user go succesufully to subCategroy page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Select Category" name="Logged user could filter with color" time="16.261">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+And user login to his account...............................................passed
+When user click on Categroy.................................................passed
+And user click on subCategroy...............................................passed
+And user choose Color.......................................................passed
+Then Filter done succesufully...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Select Tags" name="Logged user could select different tags" time="20.337">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+And user login to his account...............................................passed
+When user click on Categroy.................................................passed
+And user click on subCategroy...............................................passed
+And user choose Tag.........................................................passed
+Then Operation done succesufully............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add to Cart" name="Logged user could add different products to Shopping cart" time="17.71">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+And user login to his account...............................................passed
+When user click on Add to Cart..............................................passed
+Then Adding Operation done succesufully.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add to Comparelist" name="Logged user could add different products to Comparelist" time="17.663">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+And user login to his account...............................................passed
+When user click on Add to Comparelist Button................................passed
+Then Adding Operation done succesufully.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add to Wishlist" name="Logged user could add different products to Wishlist" time="16.852">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+And user login to his account...............................................passed
+When user click on Add to Wishlist Button...................................passed
+Then Adding Operation done succesufully.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Make order" name="Create successful Order" time="44.854">
+<system-out><![CDATA[Given open browser and neivate to website...................................passed
+Given user Click login button...............................................passed
+And user login to his account...............................................passed
+When user click on Add to Cart..............................................passed
+And User open his Cart......................................................passed
+And user Accept Terms.......................................................passed
+And user click check out....................................................passed
+And User enter His Data.....................................................passed
+And user Choose payement method,Shipping and confirm order..................passed
+Then order created succesufully.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
